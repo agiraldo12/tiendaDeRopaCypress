@@ -4,7 +4,7 @@
   "description": "Pruebas automatizadas del sistema de tienda de ropa.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run"
   },
   "keywords": [
     "qa",
@@ -15,7 +15,13 @@
   ],
   "author": "Draculinio",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agiraldo12/tiendaDeRopaCypress"
+  },
+  "devDependencies": {
     "cypress": "^8.3.1"
   }
 }
+
